@@ -5,6 +5,73 @@
     box-sizing: border-box;
 }
 
+.neon-title {
+    text-align: center;
+    font-size: 48px;
+    color: transparent;
+    text-shadow: 0 0 3px rgba(0, 255, 0, 1),
+                 0 0 6px rgba(0, 255, 0, 1),
+                 0 0 9px rgba(255, 0, 255, 1),
+                 0 0 12px rgba(255, 0, 255, 1),
+                 0 0 15px rgba(0, 255, 255, 1),
+                 0 0 18px rgba(0, 255, 255, 1),
+                 0 0 21px rgba(0, 255, 255, 1);
+    animation: neonAnimation 2s linear infinite;
+  }
+  
+  @keyframes neonAnimation {
+    0% {
+      text-shadow: 0 0 3px rgba(0, 255, 0, 1),
+                   0 0 6px rgba(0, 255, 0, 1),
+                   0 0 9px rgba(255, 0, 255, 1),
+                   0 0 12px rgba(255, 0, 255, 1),
+                   0 0 15px rgba(0, 255, 255, 1),
+                   0 0 18px rgba(0, 255, 255, 1),
+                   0 0 21px rgba(0, 255, 255, 1);
+    }
+    14% {
+      text-shadow: 0 0 3px rgba(255, 0, 255, 1),
+                   0 0 6px rgba(255, 0, 255, 1),
+                   0 0 9px rgba(0, 255, 255, 1),
+                   0 0 12px rgba(0, 255, 255, 1),
+                   0 0 15px rgba(0, 255, 0, 1),
+                   0 0 18px rgba(0, 255, 0, 1),
+                   0 0 21px rgba(0, 255, 0, 1);
+    }
+    28% {
+      text-shadow: 0 0 3px rgba(0, 255, 255, 1),
+                   0 0 6px rgba(0, 255, 255, 1),
+                   0 0 9px rgba(0, 255, 0, 1),
+                   0 0 12px rgba(0, 255, 0, 1),
+                   0 0 15px rgba(255, 0, 255, 1),
+                   0 0 18px rgba(255, 0, 255, 1),
+                   0 0 21px rgba(255, 0, 255, 1);
+    }
+    42% {
+      text-shadow: 0 0 3px rgba(0, 255, 0, 1),
+                   0 0 6px rgba(0, 255, 0, 1),
+                   0 0 9px rgba(255, 0, 255, 1),
+                   0 0 12px rgba(255, 0, 255, 1),
+                   0 0 15px rgba(0, 255, 255, 1),
+                   0 0 18px rgba(0, 255, 255, 1),
+                   0 0 21px rgba(0, 255, 255, 1);
+    }
+    100% {
+      text-shadow: 0 0 3px rgba(0, 255, 0, 1),
+                   0 0 6px rgba(0, 255, 0, 1),
+                   0 0 9px rgba(255, 0, 255, 1),
+                   0 0 12px rgba(255, 0, 255, 1),
+                   0 0 15px rgba(0, 255, 255, 1),
+                   0 0 18px rgba(0, 255, 255, 1),
+                   0 0 21px rgba(0, 255, 255, 1);
+    }
+  }
+  
+  body {
+    background-color: #000;
+  }
+  
+  
 /* Estilos para los enlaces */
 a {
     text-decoration: none;
